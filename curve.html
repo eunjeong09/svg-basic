@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>curve</title>
+</head>
+
+<body>
+    <h1>SVG Curve 그리기</h1>
+
+    <svg xmlns="http://www.w3.org/2000/svg" width="300px" height="400px" version="1.1">
+
+        <!-- 초록 곡선 -->
+        <path d="M50,50 C100,100 150,50 200,50" stroke="green" stroke-width="5" fill="none" />
+
+        <!-- 검정 곡선(이어긋기) -->
+        <path d="M50,100 C100,150 150,100 200,100 S250,150 300,100" stroke="black" stroke-width="5" fill="none" />
+
+        <!-- 빨강 2차원 베지어 곡선 -->
+        <path d="M50,200 Q125,180 200,200" stroke="red" stroke-width="5" fill="none" />
+
+        <!-- 검정 베지어 곡선 이어긋기 -->
+        <path d="M50,250 Q125,230 200,250 T300,210" stroke="black" stroke-width="5" fill="none" />
+    </svg>
+
+</body>
+
+</html>

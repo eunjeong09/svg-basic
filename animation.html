@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation</title>
+</head>
+
+<body>
+    <h1>SVG Animation</h1>
+
+    <svg xmlns="http://www.w3.org/2000/svg" width="500px" height="600px" version="1.1">
+
+        <!-- 물 -->
+        <path d="M58,50 C100,100 150,50 200,50 S250,120 300,80 335,70 320,150 L300,300 100,300Z" stroke="#5EC1C2"
+            stroke-width="5" fill="#5EC1C2">
+
+
+            <!-- animation -->
+            <animate repeatCount="indefinite" fill="#5EC1C2" attributeName="d" dur="3s" attributeType="XML" values="
+
+            M58,20 C100,80 150,20 200,40 S250,140 300,70 335,60 320,150 L300,300 100,300Z;
+
+            M58,10 C100,90 150,50 200,60 S250,160 300,60 335,70 320,150 L300,300 100,300Z;
+
+            
+
+            ">
+            </animate>
+        </path>
+
+
+
+
+
+
+        <!-- 검정 컵 -->
+        <polygon points="50,0 350,0 300,300 100,300" stroke="black" stroke-width="5" fill="none" />
+
+
+    </svg>
+
+
+
+</body>
+
+</html>
