@@ -10,38 +10,64 @@
 
 <body>
     <h1>SVG Animation</h1>
+    <div style="display: inline-block;">
+        <h3>푸른물</h3>
+        <svg xmlns="http://www.w3.org/2000/svg" width="500px" height="600px" version="1.1">
 
-    <svg xmlns="http://www.w3.org/2000/svg" width="500px" height="600px" version="1.1">
+            <!-- 물 -->
+            <path d="M58,50 C116,20 150,50 200,75 S250,40 303,30 343,47 320,150 L300,300 100,300Z" stroke="#5EC1C2"
+                stroke-width="5" fill="#5EC1C2">
 
-        <!-- 물 -->
-        <path d="M58,50 C100,100 150,50 200,50 S250,120 300,80 335,70 320,150 L300,300 100,300Z" stroke="#5EC1C2"
-            stroke-width="5" fill="#5EC1C2">
-
-
-            <!-- animation -->
-            <animate repeatCount="indefinite" fill="#5EC1C2" attributeName="d" dur="3s" attributeType="XML" values="
-
-            M58,20 C100,80 150,20 200,40 S250,140 300,70 335,60 320,150 L300,300 100,300Z;
-
-            M58,10 C100,90 150,50 200,60 S250,160 300,60 335,70 320,150 L300,300 100,300Z;
-
-            
+                <!-- animation -->
+                <animate repeatCount="indefinite" fill="#d65e66" attributeName="d" dur="3s" attributeType="XML" values="
+                M58,30 C116,50 150,75 200,40 S250,30 303,47 340,50 320,150 L300,300 100,300Z;
+                M60,50 C116,75 150,40 200,20 S250,10 303,50 340,30 320,150 L300,300 100,300Z;
+                M60,65 C116,55 150,20 200,40 S250,40 303,30 340,40 320,150 L300,300 100,300Z;
+                M60,40 C116,50 150,20 200,60 S250,10 303,30 343,40 320,150 L300,300 100,300Z;
+                M58,50 C116,40 150,60 200,40 S250,30 303,40 343,20 320,150 L300,300 100,300Z;
+                M58,45 C116,30 150,40 200,55 S250,20 303,50 343,37 320,150 L300,300 100,300Z;
+                M58,40 C116,25 150,45 200,70 S250,30 303,40 343,40 320,150 L300,300 100,300Z;
 
             ">
-            </animate>
-        </path>
+                </animate>
+            </path>
 
+            <!-- 검정 컵 -->
+            <polygon points="50,0 350,0 300,300 100,300" stroke="black" stroke-width="5" fill="none" />
 
+        </svg>
+    </div>
 
+    
+    <div style="display: inline-block;">
+        <h3>붉은물</h3>
+        <svg xmlns="http://www.w3.org/2000/svg" width="500px" height="600px" version="1.1">
 
+            <!-- 물 -->
+            <path d="M58,50 C100,100 150,50 200,50 S250,120 300,80 335,70 320,150 L300,300 100,300Z" stroke="#d65e66"
+                stroke-width="5" fill="#d65e66">
 
+                <!-- animation -->
+                <animate repeatCount="indefinite" fill="#d65e66" attributeName="d" dur="2s" attributeType="XML" values="
 
-        <!-- 검정 컵 -->
-        <polygon points="50,0 350,0 300,300 100,300" stroke="black" stroke-width="5" fill="none" />
+            M58,40 C100,80 150,20 200,40 S250,140 300,70 335,60 320,170 L300,300 100,300Z;
+            M58,40 C100,90 150,50 200,50 S250,160 300,60 340,90 320,150 L300,300 100,300Z;
+            M58,30 C100,80 150,80 200,50 S250,170 300,60 345,50 320,150 L300,300 100,300Z;
+            M63,50 C100,90 150,40 200,50 S253,160 302,60 350,20 320,150 L300,300 100,300Z;
+            M63,70 C100,70 150,20 200,40 S253,130 300,50 345,25 320,150 L300,300 100,300Z; 
+            M66,80 C100,80 150,25 200,20 S253,90 301,48 348,25 320,150 L300,300 100,300Z; 
+            M64,85 C100,60 150,35 200,30 S253,80 303,50 348,25 320,150 L300,300 100,300Z; 
+            M60,65 C100,80 150,45 200,35 S253,100 303,40 348,50 320,150 L300,300 100,300Z; 
+            M60,55 C100,90 150,30 200,20 S253,80 303,40 348,50 320,150 L300,300 100,300Z; 
+            ">
+                </animate>
+            </path>
 
+            <!-- 검정 컵 -->
+            <polygon points="50,0 350,0 300,300 100,300" stroke="black" stroke-width="5" fill="none" />
 
-    </svg>
-
+        </svg>
+    </div>
 
 
 </body>
